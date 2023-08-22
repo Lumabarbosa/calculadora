@@ -19,4 +19,6 @@ switch (op) {
         console.log(parseInt(n1/n2))
         console.log(`Com resto ${resto = n1%n2}`)
         break
+    default:
+        console.log('Operação inválida')
 }
